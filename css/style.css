@@ -359,6 +359,14 @@ form .btn {
   cursor: pointer;
 }
 
+form .btn:hover {
+  background: #ffcd16;
+}
+
+form .btn:hover:active {
+  background: #ffc800;
+}
+
 @media (max-width: 768px) {
   form .flex-row {
     -ms-flex-wrap: wrap;

@@ -316,6 +316,14 @@ form {
         color: white;
         cursor: pointer;
     }
+
+    .btn:hover {
+        background: #ffcd16;
+    }
+
+    .btn:hover:active {
+        background: #ffc800;
+    }
 }
 
 @media (max-width: 768px) {
